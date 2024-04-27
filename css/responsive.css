@@ -1,0 +1,77 @@
+@media ((min-width:320px) and (max-width:575px)){
+    .container{
+        width: 80%;
+        
+    }
+    nav{
+        position: relative;
+        padding: 5px 0;
+        
+    }
+    nav .menu{
+        position: absolute;
+        background-color: green;
+        right: 0;
+        top: 0;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+}
+    nav.active .menu{
+        top: 36.4px;
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s; 
+       
+       
+    }
+    nav .menu ul li{
+        
+        display: block;
+        width: 287.5px;;
+      
+    }
+    
+    
+    nav .menu ul li:hover a{
+        background-color: red;
+        color: white;
+    }
+    .fa.fa-bars{
+        display: block;
+        position: absolute;
+        right: 20px;
+        color: white;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        cursor: pointer;
+}
+
+    .fa.fa-x{
+        display: block;
+        right: 20px;
+        color: white;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        cursor: pointer;
+}
+
+}

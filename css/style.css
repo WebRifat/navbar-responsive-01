@@ -1,0 +1,80 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+    
+}
+.align-center{
+    align-items: center;
+    
+}
+/* common css */
+/* navbar */
+nav{
+    background-color: cadetblue;
+   
+   
+   
+   
+}
+nav .logo{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+nav .menu ul li{
+    display: inline-block;
+   
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 15px;
+    display: block;
+
+    
+  
+    
+
+}
+nav .menu ul li:hover a{
+    background-color: white;
+    color: cadetblue;
+}
+.fa.fa-bars{
+    display: none;
+}
+.fa.fa-x{
+    display: none;
+}
+/* navbar */
+
+
